@@ -35,7 +35,7 @@ function Color() {
       <div className='text-center bg-white rounded'>
           <h3 className='font-medium text-3xl py-5'>Background Color Changer</h3>
           <p>Click a color button to change the background</p>
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center items-center flex-wrap'>
             <button onClick={()=>setColor('red-600')} className='bg-red-700 text-white px-3 h-10 w-30 rounded font-medium m-5'>Red</button>
             <button onClick={()=>setColor('blue-600')} className='bg-blue-700 text-white px-3 h-10 w-30 rounded font-medium m-5'>Blue</button>
             <button onClick={()=>setColor('green-600')} className='bg-green-700 text-white px-3 h-10 w-30 rounded font-medium m-5'>Green</button>
